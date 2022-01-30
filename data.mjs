@@ -19,8 +19,8 @@ export default fp(async function (fastify) {
     data = JSON.parse(JSON.stringify(plugins))
     await pMap(Object.keys(data), (category) => Promise.all(
       data[category].map(async (pkg, i) => {
-        const { description, version } = await getPackageManifest({ name: pkg })
-        data[category][i] = { name: pkg, description, version }
+        const { description, version, homepage } = await getPackageManifest({ name: pkg })
+        data[category][i] = { name: pkg, description, version, homepage }
       })
     ))
     await writeFile(dataPath, JSON.stringify(data, null, 2))
