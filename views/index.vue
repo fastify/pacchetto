@@ -104,13 +104,7 @@
 
 <script>
 import { ref, computed } from 'vue'
-import { usePayload } from 'fastify-vite-vue/app'
-
-export function getPayload ({ fastify }) {
-	return {
-		plugins: fastify.data,
-	}
-}
+import plugins from '../data.json'
 
 export const path = '/'
 
@@ -120,7 +114,6 @@ export default {
 		const setSelectedCat = (cat) => {
 			selectedCat.value = cat
 		}
-		const { plugins } = usePayload()
 		const categories = ref(Object.keys(plugins))
 		const json = computed(() => {
 			const dependencies = {}

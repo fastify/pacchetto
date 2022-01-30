@@ -2285,10 +2285,13 @@
     "/assets/vendor.c21276c9.js",
     "/assets/vendor.ab6be687.css"
   ],
+  "data.json": [
+    "/assets/index.b8c67671.js"
+  ],
   "../../../../fastify.svg": [
-    "/assets/index.57394585.js"
+    "/assets/index.b8c67671.js"
   ],
   "views/index.vue": [
-    "/assets/index.57394585.js"
+    "/assets/index.b8c67671.js"
   ]
 }
