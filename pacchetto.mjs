@@ -9,7 +9,10 @@ app.register(data)
 
 await app.register(FastifyVite, {
   root: import.meta.url,
-  renderer: FastifyViteVue
+  renderer: FastifyViteVue,
+  generate: {
+    paths: ['/'],
+  },
 })
 
 await app.vite.commands()

@@ -1,5 +1,5 @@
 <template>
-	<h1 class="title">Fastify Package Generator</h1>
+	<h1 class="title"><img src="/fastify.svg">Fastify Package Generator</h1>
 	<div class="panes">
 		<pre class="code">{{ json }}</pre>
 		<div class="controls">
@@ -20,7 +20,7 @@
 							<i-checkbox v-model="plugins[selectedCat][i].checked" />
 						</div>
 						<div class="right">
-							<p class="name">{{ plugin.name }}</p>
+							<p class="name"><a href="https://fastify.io/">{{ plugin.name }}</a></p>
 							<p class="description">{{ plugin.description }}</p>
 						</div>
 					</div>
@@ -33,6 +33,10 @@
 <style scoped>
 .title {
 	margin: 1em;
+}
+.title img {
+	top: -0.2em;
+	margin-right: 0.3em;
 }
 .panes {
 	display: flex;

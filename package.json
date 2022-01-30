@@ -1,7 +1,7 @@
 {
   "scripts": {
     "dev": "node pacchetto.mjs",
-    "build": "node pacchetto.mjs build",
+    "build": "node pacchetto.mjs generate",
     "lint": "eslint . --ext .mjs,.js --fix"
   },
   "dependencies": {
