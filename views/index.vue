@@ -104,7 +104,7 @@
 
 <script>
 import { ref, computed } from 'vue'
-import plugins from '../data.json'
+import pluginData from '../data.json'
 
 export const path = '/'
 
@@ -114,11 +114,12 @@ export default {
 		const setSelectedCat = (cat) => {
 			selectedCat.value = cat
 		}
-		const categories = ref(Object.keys(plugins))
+		const plugins = ref(JSON.parse(JSON.stringify(pluginData)))
+		const categories = Object.keys(plugins.value)
 		const json = computed(() => {
 			const dependencies = {}
-			for (const cat of Object.keys(plugins)) {
-				for (const plugin of plugins[cat]) {
+			for (const cat of Object.keys(plugins.value)) {
+				for (const plugin of plugins.value[cat]) {
 					if (plugin.checked) {
 						dependencies[plugin.name] = plugin.version
 					}
