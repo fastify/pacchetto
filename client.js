@@ -19,7 +19,7 @@ export async function createApp (ctx) {
   const app = createSSRApp(baseLayout)
   const head = createHead()
   const router = createRouter({
-    history: createHistory(),
+    history: createHistory('/pacchetto/'),
     routes: resolvedRoutes
   })
   if (!import.meta.env.SSR) {
