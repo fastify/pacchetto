@@ -4,7 +4,7 @@ import FastifyViteVue from 'fastify-vite-vue'
 import data from './data.mjs'
 import viteConfig from './vite.config.mjs'
 
-const app = Fastify()
+const app = Fastify({ pluginTimeout: 60000 })
 
 app.register(data)
 
