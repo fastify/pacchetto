@@ -20,7 +20,7 @@
 							<i-checkbox v-model="plugins[selectedCat][i].checked" />
 						</div>
 						<div class="right">
-							<p class="name"><a :href="plugin.homepage">{{ plugin.name }}</a></p>
+							<p class="name"><a :href="plugin.homepage" target="_blank">{{ plugin.name }}</a></p>
 							<p class="description">{{ plugin.description }}</p>
 						</div>
 					</div>
