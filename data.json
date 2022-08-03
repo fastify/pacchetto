@@ -7,10 +7,10 @@
       "homepage": "https://github.com/smartiniOnGitHub/fastify-healthcheck#readme"
     },
     {
-      "name": "under-pressure",
-      "description": "`under-pressure@6.1.0` has been deprecated. Please use `@fastify/under-pressure@7.0.0` instead.",
-      "version": "6.1.0",
-      "homepage": "https://github.com/fastify/under-pressure"
+      "name": "@fastify/under-pressure",
+      "description": "Measure process load with automatic handling of 'Service Unavailable' plugin for Fastify.",
+      "version": "7.0.0",
+      "homepage": "https://github.com/fastify/under-pressure#readme"
     },
     {
       "name": "fastify-graceful-shutdown",
@@ -43,24 +43,24 @@
       "homepage": "https://github.com/dnlup/fastify-traps#readme"
     },
     {
-      "name": "fastify-rate-limit",
-      "description": "`fastify-rate-limit@5.9.0` has been deprecated. Please use `@fastify/rate-limit@6.0.0` instead.",
-      "version": "5.9.0",
-      "homepage": "https://github.com/fastify/fastify-rate-limit"
+      "name": "@fastify/rate-limit",
+      "description": "A low overhead rate limiter for your routes",
+      "version": "7.3.0",
+      "homepage": "https://github.com/fastify/fastify-rate-limit#readme"
     }
   ],
   "Compatibility": [
     {
-      "name": "middie",
-      "description": "`middie@7.1.0` has been deprecated. Please use `@fastify/middie@8.0.0` instead.",
-      "version": "7.1.0",
-      "homepage": "https://github.com/fastify/middie"
+      "name": "@fastify/middie",
+      "description": "Middleware engine for Fastify",
+      "version": "8.0.0",
+      "homepage": "https://github.com/fastify/middleman#readme"
     },
     {
-      "name": "fastify-express",
-      "description": "`fastify-express@0.4.0` has been deprecated. Please use `@fastify/express@1.0.0` instead.",
-      "version": "0.4.0",
-      "homepage": "https://github.com/fastify/fastify-express"
+      "name": "@fastify/express",
+      "description": "Express compatibility layer for Fastify",
+      "version": "2.0.1",
+      "homepage": "https://github.com/fastify/fastify-express#readme"
     },
     {
       "name": "fastify-normalize-request-reply",
@@ -83,10 +83,10 @@
       "homepage": "https://github.com/fastify/env-schema#readme"
     },
     {
-      "name": "fastify-env",
-      "description": "`fastify-env@2.2.0` has been deprecated. Please use `@fastify/env@3.0.0` instead.",
-      "version": "2.2.0",
-      "homepage": "https://github.com/fastify/fastify-env"
+      "name": "@fastify/env",
+      "description": "Fastify plugin to check environment variables",
+      "version": "4.0.0",
+      "homepage": "https://github.com/fastify/fastify-env#readme"
     },
     {
       "name": "fastify-envalid",
@@ -97,15 +97,15 @@
   ],
   "Essentials": [
     {
-      "name": "fastify-sensible",
-      "description": "`fastify-sensible@3.2.0` has been deprecated. Please use `@fastify/sensible@4.0.0` instead.",
-      "version": "3.2.0",
-      "homepage": "https://github.com/fastify/fastify-sensible"
+      "name": "@fastify/sensible",
+      "description": "Defaults for Fastify that everyone can agree on",
+      "version": "5.1.0",
+      "homepage": "https://github.com/fastify/fastify-sensible#readme"
     },
     {
-      "name": "fastify-static",
-      "description": "`fastify-static@4.7.0` has been deprecated. Please use `@fastify/static@5.0.0` instead.",
-      "version": "4.7.0",
+      "name": "@fastify/static",
+      "description": "Plugin for serving static files as fast as possible.",
+      "version": "6.5.0",
       "homepage": "https://github.com/fastify/fastify-static"
     }
   ],
@@ -131,10 +131,10 @@
   ],
   "Validation": [
     {
-      "name": "fastify-response-validation",
-      "description": "`fastify-response-validation@0.3.0` has been deprecated. Please use `@fastify/response-validation@1.0.0` instead.",
-      "version": "0.3.0",
-      "homepage": "https://github.com/fastify/fastify-response-validation"
+      "name": "@fastify/response-validation",
+      "description": "A simple plugin that enables response validation for Fastify.",
+      "version": "2.1.0",
+      "homepage": "https://github.com/fastify/fastify-response-validation#readme"
     },
     {
       "name": "fastify-no-additional-properties",
@@ -169,28 +169,28 @@
       "homepage": "https://github.com/TakNePoidet/fastify-route-group#readme"
     },
     {
-      "name": "fastify-funky",
-      "description": "`fastify-funky@1.1.0` has been deprecated. Please use `@fastify/funky@2.0.0` instead.",
-      "version": "1.1.0",
+      "name": "@fastify/funky",
+      "description": "Support for fastify routes returning functional structures, such as fp-ts Either, Task, TaskEither or plain javascript parameterless functions",
+      "version": "2.0.0",
       "homepage": "https://github.com/fastify/fastify-funky"
     },
     {
-      "name": "fastify-circuit-breaker",
-      "description": "`fastify-circuit-breaker@1.2.0` has been deprecated. Please use `@fastify/circuit-breaker@2.0.0` instead.",
-      "version": "1.2.0",
-      "homepage": "https://github.com/fastify/fastify-circuit-breaker"
+      "name": "@fastify/circuit-breaker",
+      "description": "A low overhead circuit breaker for your routes",
+      "version": "3.0.0",
+      "homepage": "https://github.com/fastify/fastify-circuit-breaker#readme"
     },
     {
-      "name": "fastify-routes",
-      "description": "`fastify-routes@3.2.0` has been deprecated. Please use `@fastify/routes@4.0.0` instead.",
-      "version": "3.2.0",
-      "homepage": "https://github.com/fastify/fastify-routes"
+      "name": "@fastify/routes",
+      "description": "A plugin for Fastify that provides a map of routes",
+      "version": "5.0.0",
+      "homepage": "https://github.com/fastify/fastify-routes#readme"
     },
     {
-      "name": "fastify-autoload",
-      "description": "`fastify-autoload@3.13.0` has been deprecated. Please use `@fastify/autoload@4.0.0` instead.",
-      "version": "3.13.0",
-      "homepage": "https://github.com/fastify/fastify-autoload"
+      "name": "@fastify/autoload",
+      "description": "Require all plugins in a directory",
+      "version": "5.1.0",
+      "homepage": "https://github.com/fastify/fastify-autoload#readme"
     },
     {
       "name": "fastify-autocrud",
@@ -261,64 +261,64 @@
   ],
   "HTTP": [
     {
-      "name": "fastify-compress",
-      "description": "`fastify-compress@4.1.0` has been deprecated. Please use `@fastify/compress@5.0.0` instead.",
-      "version": "4.1.0",
-      "homepage": "https://github.com/fastify/fastify-compress"
-    },
-    {
-      "name": "fastify-cookie",
-      "description": "`fastify-cookie@5.7.0` has been deprecated. Please use `@fastify/cookie@6.0.0` instead.",
-      "version": "5.7.0",
-      "homepage": "https://github.com/fastify/fastify-cookie"
-    },
-    {
-      "name": "fastify-cors",
-      "description": "`fastify-cors@6.1.0` has been deprecated. Please use `@fastify/cors@7.0.0` instead.",
+      "name": "@fastify/compress",
+      "description": "Fastify compression utils",
       "version": "6.1.0",
-      "homepage": "https://github.com/fastify/fastify-cors"
+      "homepage": "https://github.com/fastify/fastify-compress#readme"
     },
     {
-      "name": "fastify-csrf",
+      "name": "@fastify/cookie",
+      "description": "Plugin for fastify to add support for cookies",
+      "version": "7.3.1",
+      "homepage": "https://github.com/fastify/fastify-cookie#readme"
+    },
+    {
+      "name": "@fastify/cors",
+      "description": "Fastify CORS",
+      "version": "8.0.0",
+      "homepage": "https://github.com/fastify/fastify-cors#readme"
+    },
+    {
+      "name": "@fastify/csrf-protection",
       "description": "A plugin for adding CSRF protection to Fastify.",
-      "version": "3.1.0",
+      "version": "5.1.0",
       "homepage": "https://github.com/fastify/fastify-csrf#readme"
     },
     {
-      "name": "fastify-accepts",
-      "description": "`fastify-accepts@2.3.0` has been deprecated. Please use `@fastify/accepts@3.0.0` instead.",
-      "version": "2.3.0",
-      "homepage": "https://github.com/fastify/fastify-accepts"
+      "name": "@fastify/accepts",
+      "description": "Add accept parser to fastify",
+      "version": "4.0.0",
+      "homepage": "https://github.com/fastify/fastify-accepts#readme"
     },
     {
-      "name": "fastify-accepts-serializer",
-      "description": "`fastify-accepts-serializer@3.3.0` has been deprecated. Please use `@fastify/accepts-serializer@4.0.0` instead.",
-      "version": "3.3.0",
-      "homepage": "https://github.com/fastify/fastify-accepts-serializer"
+      "name": "@fastify/accepts-serializer",
+      "description": "Serializer according to the accept header",
+      "version": "5.0.0",
+      "homepage": "https://github.com/fastify/fastify-accepts-serializer#readme"
     },
     {
-      "name": "fastify-multipart",
-      "description": "`fastify-multipart@5.4.0` has been deprecated. Please use `@fastify/multipart@6.0.0` instead.",
-      "version": "5.4.0",
-      "homepage": "https://github.com/fastify/fastify-multipart"
-    },
-    {
-      "name": "fastify-helmet",
-      "description": "`fastify-helmet@7.1.0` has been deprecated. Please use `@fastify/helmet@8.0.0` instead.",
+      "name": "@fastify/multipart",
+      "description": "Multipart plugin for Fastify",
       "version": "7.1.0",
-      "homepage": "https://github.com/fastify/fastify-helmet"
+      "homepage": "https://github.com/fastify/fastify-multipart#readme"
     },
     {
-      "name": "fastify-http-proxy",
-      "description": "`fastify-http-proxy@6.3.0` has been deprecated. Please use `@fastify/http-proxy@7.0.0` instead.",
-      "version": "6.3.0",
-      "homepage": "https://github.com/fastify/fastify-http-proxy"
+      "name": "@fastify/helmet",
+      "description": "Important security headers for Fastify",
+      "version": "9.1.0",
+      "homepage": "https://github.com/fastify/fastify-helmet#readme"
     },
     {
-      "name": "fastify-formbody",
-      "description": "`fastify-formbody@5.3.0` has been deprecated. Please use `@fastify/formbody@6.0.0` instead.",
-      "version": "5.3.0",
-      "homepage": "https://github.com/fastify/fastify-formbody"
+      "name": "@fastify/http-proxy",
+      "description": "proxy http requests, for Fastify",
+      "version": "8.2.1",
+      "homepage": "https://github.com/fastify/fastify-http-proxy#readme"
+    },
+    {
+      "name": "@fastify/formbody",
+      "description": "A module for Fastify to parse x-www-form-urlencoded bodies",
+      "version": "7.0.1",
+      "homepage": "https://github.com/fastify/fastify-formbody#readme"
     },
     {
       "name": "fastify-raw-body",
@@ -333,10 +333,10 @@
       "homepage": "https://github.com/vanodevium/fastify-qs#readme"
     },
     {
-      "name": "fastify-url-data",
-      "description": "`fastify-url-data@3.1.0` has been deprecated. Please use `@fastify/url-data@4.0.0` instead.",
-      "version": "3.1.0",
-      "homepage": "https://github.com/fastify/fastify-url-data"
+      "name": "@fastify/url-data",
+      "description": "A Fastify plugin to provide access to URI components",
+      "version": "5.1.0",
+      "homepage": "https://github.com/fastify/fastify-url-data#readme"
     },
     {
       "name": "fastify-405",
@@ -424,10 +424,10 @@
       "homepage": "https://github.com/fastify/fastify-vite"
     },
     {
-      "name": "point-of-view",
-      "description": "`point-of-view@6.3.0` has been deprecated. Please use `@fastify/view@7.0.0` instead.",
-      "version": "6.3.0",
-      "homepage": "https://github.com/fastify/point-of-view"
+      "name": "@fastify/view",
+      "description": "Template plugin for Fastify",
+      "version": "7.0.0",
+      "homepage": "https://github.com/fastify/point-of-view#readme"
     },
     {
       "name": "@applicazza/fastify-nextjs",
@@ -436,10 +436,10 @@
       "homepage": "https://github.com/applicazza/fastify-nextjs"
     },
     {
-      "name": "fastify-nextjs",
-      "description": "`fastify-nextjs@7.3.0` has been deprecated. Please use `@fastify/nextjs@8.0.0` instead.",
-      "version": "7.3.0",
-      "homepage": "https://github.com/fastify/fastify-nextjs"
+      "name": "@fastify/nextjs",
+      "description": "React server side rendering support for Fastify with Next",
+      "version": "8.0.2",
+      "homepage": "https://github.com/fastify/fastify-nextjs#readme"
     },
     {
       "name": "fastify-nuxtjs",
@@ -486,10 +486,10 @@
   ],
   "Databases": [
     {
-      "name": "fastify-postgres",
-      "description": "`fastify-postgres@3.7.0` has been deprecated. Please use `@fastify/postgres@4.0.0` instead.",
-      "version": "3.7.0",
-      "homepage": "https://github.com/fastify/fastify-postgres"
+      "name": "@fastify/postgres",
+      "description": "Fastify PostgreSQL connection plugin",
+      "version": "5.0.0",
+      "homepage": "https://github.com/fastify/fastify-postgres#readme"
     },
     {
       "name": "fastify-slonik",
@@ -498,16 +498,16 @@
       "homepage": "https://github.com/spa5k/fastify-slonik"
     },
     {
-      "name": "fastify-leveldb",
-      "description": "`fastify-leveldb@3.2.0` has been deprecated. Please use `@fastify/leveldb@4.0.0` instead.",
-      "version": "3.2.0",
-      "homepage": "https://github.com/fastify/fastify-leveldb"
+      "name": "@fastify/leveldb",
+      "description": "Plugin to share a common LevelDB connection across Fastify.",
+      "version": "5.0.1",
+      "homepage": "https://github.com/fastify/fastify-leveldb#readme"
     },
     {
-      "name": "fastify-mongodb",
-      "description": "`fastify-mongodb@4.2.0` has been deprecated. Please use `@fastify/mongodb@5.0.0` instead.",
-      "version": "4.2.0",
-      "homepage": "https://github.com/fastify/fastify-mongodb"
+      "name": "@fastify/mongodb",
+      "description": "Fastify MongoDB connection plugin",
+      "version": "6.0.1",
+      "homepage": "https://github.com/fastify/fastify-mongodb#readme"
     },
     {
       "name": "fastify-oracle",
@@ -588,11 +588,6 @@
       "homepage": "https://github.com/nbalduzzi/fastify-knexjs#readme"
     },
     {
-      "name": "fastify-sequelize",
-      "description": "Fastity plugin work with Sequelize (adapter for NodeJS -> Sqlite, Mysql, Mssql, Posgres)",
-      "version": "1.0.4"
-    },
-    {
       "name": "sequelize-fastify",
       "description": "a Sequelize plugin for Fastify.",
       "version": "2.0.0",
@@ -601,10 +596,10 @@
   ],
   "Redis": [
     {
-      "name": "fastify-redis",
-      "description": "`fastify-redis@4.4.0` has been deprecated. Please use `@fastify/redis@5.0.0` instead.",
-      "version": "4.4.0",
-      "homepage": "https://github.com/fastify/fastify-redis"
+      "name": "@fastify/redis",
+      "description": "Plugin to share a common Redis connection across Fastify.",
+      "version": "6.0.0",
+      "homepage": "https://github.com/fastify/fastify-redis#readme"
     },
     {
       "name": "fastify-redis-channels",
@@ -627,10 +622,10 @@
   ],
   "Caching": [
     {
-      "name": "fastify-caching",
-      "description": "`fastify-caching@6.3.0` has been deprecated. Please use `@fastify/caching@7.0.0` instead.",
-      "version": "6.3.0",
-      "homepage": "https://github.com/fastify/fastify-caching"
+      "name": "@fastify/caching",
+      "description": "A plugin for Fastify to enable management of cache control headers",
+      "version": "8.0.1",
+      "homepage": "https://github.com/fastify/fastify-caching#readme"
     },
     {
       "name": "fastify-response-caching",
@@ -659,10 +654,10 @@
   ],
   "Authentication": [
     {
-      "name": "fastify-jwt",
-      "description": "`fastify-jwt@4.2.0` has been deprecated. Please use `@fastify/jwt@5.0.0` instead.",
-      "version": "4.2.0",
-      "homepage": "https://github.com/fastify/fastify-jwt"
+      "name": "@fastify/jwt",
+      "description": "JWT utils for Fastify",
+      "version": "6.3.2",
+      "homepage": "https://github.com/fastify/fastify-jwt#readme"
     },
     {
       "name": "fastify-jwt-authz",
@@ -677,22 +672,22 @@
       "homepage": "https://github.com/charlesread/fastify-jwt-webapp#readme"
     },
     {
-      "name": "fastify-oauth2",
-      "description": "`fastify-oauth2@4.6.0` has been deprecated. Please use `@fastify/oauth2@5.0.0` instead.",
-      "version": "4.6.0",
-      "homepage": "https://github.com/fastify/fastify-oauth2"
+      "name": "@fastify/oauth2",
+      "description": "Perform login using oauth2 protocol",
+      "version": "5.1.0",
+      "homepage": "https://github.com/fastify/fastify-oauth2#readme"
     },
     {
-      "name": "fastify-basic-auth",
-      "description": "`fastify-basic-auth@2.3.0` has been deprecated. Please use `@fastify/basic-auth@3.0.0` instead.",
-      "version": "2.3.0",
-      "homepage": "https://github.com/fastify/fastify-basic-auth"
+      "name": "@fastify/basic-auth",
+      "description": "Fastify basic auth plugin",
+      "version": "4.0.0",
+      "homepage": "https://github.com/fastify/fastify-basic-auth#readme"
     },
     {
-      "name": "fastify-bearer-auth",
-      "description": "`fastify-bearer-auth@6.3.0` has been deprecated. Please use `@fastify/bearer-auth@7.0.0` instead.",
-      "version": "6.3.0",
-      "homepage": "https://github.com/fastify/fastify-bearer-auth"
+      "name": "@fastify/bearer-auth",
+      "description": "An authentication plugin for Fastify",
+      "version": "8.0.1",
+      "homepage": "https://github.com/fastify/fastify-bearer-auth#readme"
     },
     {
       "name": "fastify-totp",
@@ -701,10 +696,10 @@
       "homepage": "https://github.com/heply/fastify-totp#readme"
     },
     {
-      "name": "fastify-auth",
-      "description": "`fastify-auth@1.2.0` has been deprecated. Please use `@fastify/auth@2.0.0` instead.",
-      "version": "1.2.0",
-      "homepage": "https://github.com/fastify/fastify-auth"
+      "name": "@fastify/auth",
+      "description": "Run multiple auth functions in Fastify",
+      "version": "3.0.2",
+      "homepage": "https://github.com/fastify/fastify-auth#readme"
     },
     {
       "name": "fastify-auth0-verify",
@@ -839,10 +834,10 @@
   ],
   "Networking": [
     {
-      "name": "fastify-reply-from",
-      "description": "`fastify-reply-from@6.7.0` has been deprecated. Please use `@fastify/reply-from@7.0.0` instead.",
-      "version": "6.7.0",
-      "homepage": "https://github.com/fastify/fastify-reply-from"
+      "name": "@fastify/reply-from",
+      "description": "forward your HTTP request to another server, for fastify",
+      "version": "8.1.0",
+      "homepage": "https://github.com/fastify/fastify-reply-from#readme"
     },
     {
       "name": "fastify-vhost",
@@ -871,16 +866,16 @@
   ],
   "Session": [
     {
-      "name": "fastify-secure-session",
-      "description": "`fastify-secure-session@3.2.0` has been deprecated. Please use `@fastify/secure-session@4.0.0` instead.",
-      "version": "3.2.0",
-      "homepage": "https://github.com/fastify/fastify-secure-session"
+      "name": "@fastify/secure-session",
+      "description": "Create a secure stateless cookie session for Fastify",
+      "version": "5.2.0",
+      "homepage": "https://github.com/fastify/fastify-secure-session#readme"
     },
     {
-      "name": "fastify-flash",
-      "description": "`fastify-flash@3.1.0` has been deprecated. Please use `@fastify/flash@4.0.0` instead.",
-      "version": "3.1.0",
-      "homepage": "https://github.com/fastify/fastify-flash"
+      "name": "@fastify/flash",
+      "description": "Flash message plugin for fastify.",
+      "version": "5.0.0",
+      "homepage": "http://fastify.io/"
     },
     {
       "name": "@fastify/session",
@@ -899,11 +894,6 @@
       "description": "A good fastify sessions plugin focused on speed.",
       "version": "1.4.4",
       "homepage": "https://github.com/Phara0h/fastify-good-sessions#readme"
-    },
-    {
-      "name": "@mgcrea/fastify-session-sodium-crypto",
-      "description": "Fast sodium-based crypto for fastify-session",
-      "version": "0.8.5"
     },
     {
       "name": "@mgcrea/fastify-session",
@@ -985,10 +975,10 @@
       "homepage": "https://github.com/piscinajs/fastify-piscina#readme"
     },
     {
-      "name": "fastify-schedule",
-      "description": "`fastify-schedule@1.1.0` has been deprecated. Please use `@fastify/schedule@2.0.0` instead.",
-      "version": "1.1.0",
-      "homepage": "https://github.com/fastify/fastify-schedule"
+      "name": "@fastify/schedule",
+      "description": "Fastify plugin for scheduling periodic jobs",
+      "version": "3.0.0",
+      "homepage": "http://github.com/fastify/fastify-schedule"
     },
     {
       "name": "fastify-bree",
@@ -1019,10 +1009,10 @@
       "homepage": "https://github.com/NaturalIntelligence/fastify-xml-body-parser"
     },
     {
-      "name": "fastify-soap-client",
-      "description": "`fastify-soap-client@0.3.0` has been deprecated. Please use `@fastify/soap-client@1.0.0` instead.",
-      "version": "0.3.0",
-      "homepage": "https://github.com/fastify/fastify-soap-client"
+      "name": "@fastify/soap-client",
+      "description": "SOAP client integration",
+      "version": "2.0.0",
+      "homepage": "https://github.com/fastify/fastify-soap-client#readme"
     }
   ],
   "I18N": [
@@ -1079,10 +1069,10 @@
       "homepage": "https://github.com/gj/fastify-ws#readme"
     },
     {
-      "name": "fastify-websocket",
-      "description": "`fastify-websocket@4.3.0` has been deprecated. Please use `@fastify/websocket@5.0.0` instead.",
-      "version": "4.3.0",
-      "homepage": "https://github.com/fastify/fastify-websocket"
+      "name": "@fastify/websocket",
+      "description": "basic websocket support for fastify",
+      "version": "6.0.1",
+      "homepage": "https://github.com/fastify/fastify-websocket#readme"
     },
     {
       "name": "fastify-socket.io",
@@ -1099,10 +1089,10 @@
   ],
   "Dependency Injection": [
     {
-      "name": "fastify-awilix",
-      "description": "`fastify-awilix@1.3.0` has been deprecated. Please use `@fastify/awilix@2.0.0` instead.",
-      "version": "1.3.0",
-      "homepage": "https://github.com/fastify/fastify-awilix"
+      "name": "@fastify/awilix",
+      "description": "Dependency injection support for fastify framework",
+      "version": "3.0.0",
+      "homepage": "http://github.com/fastify/fastify-awilix"
     }
   ],
   "Debugging": [
@@ -1119,10 +1109,10 @@
       "homepage": "https://github.com/jeromemacias/fastify-boom#readme"
     },
     {
-      "name": "fastify-diagnostics-channel",
-      "description": "`fastify-diagnostics-channel@1.1.0` has been deprecated. Please use `@fastify/diagnostics-channel@2.0.0` instead.",
-      "version": "1.1.0",
-      "homepage": "https://github.com/fastify/fastify-diagnostics-channel"
+      "name": "@fastify/diagnostics-channel",
+      "description": "Plugin to deal with diagnostics_channel on Fastify",
+      "version": "4.0.1",
+      "homepage": "https://github.com/fastify/fastify-diagnostics-channel#readme"
     },
     {
       "name": "fastify-sentry",
@@ -1133,10 +1123,10 @@
   ],
   "Documentation": [
     {
-      "name": "fastify-swagger",
-      "description": "`fastify-swagger@5.2.0` has been deprecated. Please use `@fastify/swagger@6.0.0` instead.",
-      "version": "5.2.0",
-      "homepage": "https://github.com/fastify/fastify-swagger"
+      "name": "@fastify/swagger",
+      "description": "Serve Swagger/OpenAPI documentation for Fastify, supporting dynamic generation",
+      "version": "7.4.1",
+      "homepage": "https://github.com/fastify/fastify-swagger#readme"
     },
     {
       "name": "fastify-openapi-docs",
@@ -1225,10 +1215,10 @@
   ],
   "Others": [
     {
-      "name": "fastify-request-context",
-      "description": "`fastify-request-context@2.3.0` has been deprecated. Please use `@fastify/request-context@3.0.0` instead.",
-      "version": "2.3.0",
-      "homepage": "https://github.com/fastify/fastify-request-context"
+      "name": "@fastify/request-context",
+      "description": "Request-scoped storage support, based on Asynchronous Local Storage, with fallback to cls-hooked for older Node versions",
+      "version": "4.0.0",
+      "homepage": "http://github.com/fastify/fastify-request-context"
     },
     {
       "name": "fastify-prettier",
