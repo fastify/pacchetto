@@ -1,36 +1,33 @@
 export default {
   Scalability: [
     'fastify-healthcheck',
-    'under-pressure',
+    '@fastify/under-pressure',
     'fastify-graceful-shutdown',
     'fastify-custom-healthcheck',
     '@gquittet/graceful-server',
     '@mgcrea/fastify-graceful-exit',
     '@dnlup/fastify-traps',
-    'fastify-rate-limit'
+    '@fastify/rate-limit'
   ],
   Compatibility: [
-    'middie',
-    'fastify-express',
+    '@fastify/middie',
+    '@fastify/express',
     'fastify-normalize-request-reply'
   ],
   Configuration: [
     'fastify-rob-config',
     'env-schema',
-    'fastify-env',
+    '@fastify/env',
     'fastify-envalid'
   ],
-  Essentials: [
-    'fastify-sensible',
-    'fastify-static'
-  ],
+  Essentials: ['@fastify/sensible', '@fastify/static'],
   TypeScript: [
     '@coobaha/typed-fastify',
     'fastify-decorators',
     'fastify-schema-to-typescript'
   ],
   Validation: [
-    'fastify-response-validation',
+    '@fastify/response-validation',
     'fastify-no-additional-properties',
     'fastify-schema-constraint',
     'fastify-split-validator'
@@ -38,10 +35,10 @@ export default {
   Routing: [
     'fastify-register-routes',
     'fastify-route-group',
-    'fastify-funky',
-    'fastify-circuit-breaker',
-    'fastify-routes',
-    'fastify-autoload',
+    '@fastify/funky',
+    '@fastify/circuit-breaker',
+    '@fastify/routes',
+    '@fastify/autoload',
     'fastify-autocrud',
     'fastify-autoroutes',
     'fastify-print-routes',
@@ -55,19 +52,19 @@ export default {
     '@fastify-resty/core'
   ],
   HTTP: [
-    'fastify-compress',
-    'fastify-cookie',
-    'fastify-cors',
-    'fastify-csrf',
-    'fastify-accepts',
-    'fastify-accepts-serializer',
-    'fastify-multipart',
-    'fastify-helmet',
-    'fastify-http-proxy',
-    'fastify-formbody',
+    '@fastify/compress',
+    '@fastify/cookie',
+    '@fastify/cors',
+    '@fastify/csrf-protection',
+    '@fastify/accepts',
+    '@fastify/accepts-serializer',
+    '@fastify/multipart',
+    '@fastify/helmet',
+    '@fastify/http-proxy',
+    '@fastify/formbody',
     'fastify-raw-body',
     'fastify-qs',
-    'fastify-url-data',
+    '@fastify/url-data',
     'fastify-405',
     'fastify-http-context',
     'fastify-http2https',
@@ -84,9 +81,9 @@ export default {
   ],
   Frontend: [
     'fastify-vite',
-    'point-of-view',
+    '@fastify/view',
     '@applicazza/fastify-nextjs',
-    'fastify-nextjs',
+    '@fastify/nextjs',
     'fastify-nuxtjs',
     'fastify-webpack-hmr',
     'fastify-vue-plugin',
@@ -96,10 +93,10 @@ export default {
     'fastify-babel'
   ],
   Databases: [
-    'fastify-postgres',
+    '@fastify/postgres',
     'fastify-slonik',
-    'fastify-leveldb',
-    'fastify-mongodb',
+    '@fastify/leveldb',
+    '@fastify/mongodb',
     'fastify-oracle',
     'fastify-orientdb',
     'fastify-couchdb',
@@ -113,31 +110,30 @@ export default {
     'fastify-objectionjs',
     'fastify-objectionjs-classes',
     'fastify-knexjs',
-    'fastify-sequelize',
     'sequelize-fastify'
   ],
   Redis: [
-    'fastify-redis',
+    '@fastify/redis',
     'fastify-redis-channels',
     '@mgcrea/fastify-session-redis-store',
     'fastify-lured'
   ],
   Caching: [
-    'fastify-caching',
+    '@fastify/caching',
     'fastify-response-caching',
     'async-cache-dedupe',
     'fastify-disablecache',
     'fastify-peekaboo'
   ],
   Authentication: [
-    'fastify-jwt',
+    '@fastify/jwt',
     'fastify-jwt-authz',
     'fastify-jwt-webapp',
-    'fastify-oauth2',
-    'fastify-basic-auth',
-    'fastify-bearer-auth',
+    '@fastify/oauth2',
+    '@fastify/basic-auth',
+    '@fastify/bearer-auth',
     'fastify-totp',
-    'fastify-auth',
+    '@fastify/auth',
     'fastify-auth0-verify',
     'fastify-esso',
     'fastify-api-key',
@@ -165,55 +161,29 @@ export default {
     'fastify-cloudevents'
   ],
   Networking: [
-    'fastify-reply-from',
+    '@fastify/reply-from',
     'fastify-vhost',
     'k-fastify-gateway',
     'fastify-tls-keygen',
     'fastify-http-client'
   ],
   Session: [
-    'fastify-secure-session',
-    'fastify-flash',
+    '@fastify/secure-session',
+    '@fastify/flash',
     '@fastify/session',
     'fastify-server-session',
     'fastify-good-sessions',
-    '@mgcrea/fastify-session-sodium-crypto',
     '@mgcrea/fastify-session'
   ],
-  Hashing: [
-    'fastify-bcrypt'
-  ],
-  Search: [
-    'fastify-elasticsearch'
-  ],
-  Firebase: [
-    'fastify-firebase-auth'
-  ],
-  Kubernetes: [
-    'arecibo',
-    'fastify-kubernetes'
-  ],
-  AWS: [
-    'fastify-xray',
-    'fastify-dynamodb'
-  ],
-  'Google Cloud': [
-    'fastify-gcloud-trace',
-    'fastify-google-cloud-storage'
-  ],
-  Scheduling: [
-    'fastify-piscina',
-    'fastify-schedule',
-    'fastify-bree'
-  ],
-  SSE: [
-    'fastify-sse',
-    'fastify-sse-v2'
-  ],
-  XML: [
-    'fastify-xml-body-parser',
-    'fastify-soap-client'
-  ],
+  Hashing: ['fastify-bcrypt'],
+  Search: ['@fastify/elasticsearch'],
+  Firebase: ['fastify-firebase-auth'],
+  Kubernetes: ['arecibo', 'fastify-kubernetes'],
+  AWS: ['fastify-xray', 'fastify-dynamodb'],
+  'Google Cloud': ['fastify-gcloud-trace', 'fastify-google-cloud-storage'],
+  Scheduling: ['fastify-piscina', '@fastify/schedule', 'fastify-bree'],
+  SSE: ['fastify-sse', 'fastify-sse-v2'],
+  XML: ['fastify-xml-body-parser', '@fastify/soap-client'],
   I18N: [
     'i18next-http-middleware',
     'fastify-polyglot',
@@ -227,21 +197,19 @@ export default {
   ],
   WebSocket: [
     'fastify-ws',
-    'fastify-websocket',
+    '@fastify/websocket',
     'fastify-socket.io',
     'fastify-wamp-router'
   ],
-  'Dependency Injection': [
-    'fastify-awilix'
-  ],
+  'Dependency Injection': ['@fastify/awilix'],
   Debugging: [
     'fastify-error-page',
     'fastify-boom',
-    'fastify-diagnostics-channel',
+    '@fastify/diagnostics-channel',
     'fastify-sentry'
   ],
   Documentation: [
-    'fastify-swagger',
+    '@fastify/swagger',
     'fastify-openapi-docs',
     'fastify-openapi-glue',
     'fastify-oas'
@@ -253,17 +221,10 @@ export default {
     'nstats',
     '@immobiliarelabs/fastify-metrics'
   ],
-  Testing: [
-    'fastify-mongo-memory',
-    'fastify-knexjs-mock',
-    'fastify-explorer'
-  ],
-  Email: [
-    'fastify-mailer',
-    'fastify-nodemailer'
-  ],
+  Testing: ['fastify-mongo-memory', 'fastify-knexjs-mock', 'fastify-explorer'],
+  Email: ['fastify-mailer', 'fastify-nodemailer'],
   Others: [
-    'fastify-request-context',
+    '@fastify/request-context',
     'fastify-prettier',
     'fastify-no-icon',
     'fastify-favicon',

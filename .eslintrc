@@ -9,4 +9,5 @@
     '@babel',
   ],
   extends: ['standard'],
+  ignorePatterns: ['dist']
 }
