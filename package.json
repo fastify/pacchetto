@@ -11,7 +11,7 @@
     "fastify-vite": "^3.0.0-alpha.13",
     "fastify-vite-vue": "^3.0.0-alpha.13",
     "p-map": "^5.5.0",
-    "query-registry": "^2.2.0",
+    "query-registry": "^2.6.0",
     "sass": "^1.54.9"
   },
   "devDependencies": {
