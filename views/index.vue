@@ -1,5 +1,5 @@
 <template>
-	<h1 class="title"><img src="/fastify.svg">Fastify Package Generator</h1>
+	<h1 class="title"><img src="/fastify.svg" alt="Fastify">Fastify Package Generator</h1>
 	<div class="panes">
 		<pre class="code">{{ json }}</pre>
 		<div class="controls">
