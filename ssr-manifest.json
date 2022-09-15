@@ -1,6 +1,466 @@
 {
   "vite/modulepreload-polyfill": [],
   "@app/index.css": [],
+  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [],
+  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [],
+  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [],
+  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [],
+  "node_modules/vue/dist/vue.runtime.esm-bundler.js": [],
+  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [],
+  "node_modules/@vueuse/head/dist/index.mjs": [],
+  "\u0000commonjsHelpers.js": [],
+  "node_modules/@arr/every/module.js": [],
+  "node_modules/matchit/lib/matchit.mjs": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/matchit/lib/matchit.mjs?commonjs-proxy": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/comment.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/node.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/he/he.js?commonjs-module": [],
+  "node_modules/he/he.js": [],
+  "node_modules/node-html-parser/dist/nodes/node.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/type.js?commonjs-exports": [],
+  "node_modules/node-html-parser/dist/nodes/type.js": [],
+  "node_modules/node-html-parser/dist/nodes/comment.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/html.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/stringify.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domhandler/lib/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domelementtype/lib/index.js?commonjs-exports": [],
+  "node_modules/domelementtype/lib/index.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domhandler/lib/node.js?commonjs-exports": [],
+  "node_modules/domhandler/lib/node.js": [],
+  "node_modules/domhandler/lib/index.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/dom-serializer/lib/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/decode.js?commonjs-exports": [],
+  "node_modules/entities/lib/maps/entities.json": [],
+  "node_modules/entities/lib/maps/legacy.json": [],
+  "node_modules/entities/lib/maps/xml.json": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/decode_codepoint.js?commonjs-exports": [],
+  "node_modules/entities/lib/maps/decode.json": [],
+  "node_modules/entities/lib/decode_codepoint.js": [],
+  "node_modules/entities/lib/decode.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/encode.js?commonjs-exports": [],
+  "node_modules/entities/lib/encode.js": [],
+  "node_modules/entities/lib/index.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/dom-serializer/lib/foreignNames.js?commonjs-exports": [],
+  "node_modules/dom-serializer/lib/foreignNames.js": [],
+  "node_modules/dom-serializer/lib/index.js": [],
+  "node_modules/domutils/lib/stringify.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/traversal.js?commonjs-exports": [],
+  "node_modules/domutils/lib/traversal.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/manipulation.js?commonjs-exports": [],
+  "node_modules/domutils/lib/manipulation.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/querying.js?commonjs-exports": [],
+  "node_modules/domutils/lib/querying.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/legacy.js?commonjs-exports": [],
+  "node_modules/domutils/lib/legacy.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/helpers.js?commonjs-exports": [],
+  "node_modules/domutils/lib/helpers.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/feeds.js?commonjs-exports": [],
+  "node_modules/domutils/lib/feeds.js": [],
+  "node_modules/domutils/lib/index.js": [],
+  "node_modules/boolbase/index.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/compile.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/parse.js?commonjs-exports": [],
+  "node_modules/css-what/lib/parse.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/stringify.js?commonjs-exports": [],
+  "node_modules/css-what/lib/stringify.js": [],
+  "node_modules/css-what/lib/index.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/sort.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/procedure.js?commonjs-exports": [],
+  "node_modules/css-select/lib/procedure.js": [],
+  "node_modules/css-select/lib/sort.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/general.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/attributes.js?commonjs-exports": [],
+  "node_modules/css-select/lib/attributes.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/filters.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/index.js?commonjs-exports": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/parse.js?commonjs-exports": [],
+  "node_modules/nth-check/lib/parse.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/compile.js?commonjs-exports": [],
+  "node_modules/nth-check/lib/compile.js": [],
+  "node_modules/nth-check/lib/index.js": [],
+  "node_modules/css-select/lib/pseudo-selectors/filters.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/pseudos.js?commonjs-exports": [],
+  "node_modules/css-select/lib/pseudo-selectors/pseudos.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/aliases.js?commonjs-exports": [],
+  "node_modules/css-select/lib/pseudo-selectors/aliases.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/subselects.js?commonjs-exports": [],
+  "node_modules/css-select/lib/pseudo-selectors/subselects.js": [],
+  "node_modules/css-select/lib/pseudo-selectors/index.js": [],
+  "node_modules/css-select/lib/general.js": [],
+  "node_modules/css-select/lib/compile.js": [],
+  "node_modules/css-select/lib/index.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/text.js?commonjs-exports": [],
+  "node_modules/node-html-parser/dist/nodes/text.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/matcher.js?commonjs-exports": [],
+  "node_modules/node-html-parser/dist/matcher.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/back.js?commonjs-exports": [],
+  "node_modules/node-html-parser/dist/back.js": [],
+  "node_modules/node-html-parser/dist/nodes/html.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/parse.js?commonjs-exports": [],
+  "node_modules/node-html-parser/dist/parse.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/valid.js?commonjs-exports": [],
+  "node_modules/node-html-parser/dist/valid.js": [],
+  "node_modules/node-html-parser/dist/index.js": [],
+  "node_modules/fastify-vite/client.js": [],
+  "node_modules/fastify-vite/islands.js": [],
+  "node_modules/fastify-vite/app.js": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/vue/dist/vue.runtime.esm-bundler.js?commonjs-proxy": [],
+  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/vue-router/dist/vue-router.esm-bundler.js?commonjs-proxy": [],
+  "node_modules/manifetch/index.js": [],
+  "node_modules/fastify-vite-vue/symbols.js": [],
+  "node_modules/fastify-vite-vue/app.js": [],
+  "node_modules/fastify-vite-vue/routing.js": [],
+  "node_modules/@inkline/inkline/mixins/computed/classes.mjs": [],
+  "node_modules/@inkline/inkline/helpers/hasClass.mjs": [],
+  "node_modules/@inkline/inkline/helpers/addClass.mjs": [],
+  "node_modules/@inkline/inkline/helpers/toDashCase.mjs": [],
+  "node_modules/@inkline/inkline/helpers/breakpointClass.mjs": [],
+  "node_modules/@inkline/inkline/helpers/capitalizeFirst.mjs": [],
+  "node_modules/@inkline/inkline/helpers/clone.mjs": [],
+  "node_modules/@inkline/inkline/helpers/debounce.mjs": [],
+  "node_modules/@inkline/inkline/helpers/isFocusable.mjs": [],
+  "node_modules/@inkline/inkline/helpers/focusAttempt.mjs": [],
+  "node_modules/@inkline/inkline/helpers/focusFirstDescendant.mjs": [],
+  "node_modules/@inkline/inkline/helpers/getStyleProperty.mjs": [],
+  "node_modules/@inkline/inkline/helpers/isFunction.mjs": [],
+  "node_modules/@inkline/inkline/constants/breakpoints.mjs": [],
+  "node_modules/@inkline/inkline/constants/keymap.mjs": [],
+  "node_modules/@inkline/inkline/constants/validation.mjs": [],
+  "node_modules/@inkline/inkline/helpers/isKey.mjs": [],
+  "node_modules/@inkline/inkline/helpers/isVisible.mjs": [],
+  "node_modules/@inkline/inkline/helpers/markSearchString.mjs": [],
+  "node_modules/@inkline/inkline/helpers/memoize.mjs": [],
+  "node_modules/@inkline/inkline/helpers/off.mjs": [],
+  "node_modules/@inkline/inkline/helpers/on.mjs": [],
+  "node_modules/@inkline/inkline/helpers/renderSvg.mjs": [],
+  "node_modules/@inkline/inkline/helpers/trim.mjs": [],
+  "node_modules/@inkline/inkline/helpers/removeClass.mjs": [],
+  "node_modules/@inkline/inkline/helpers/valueByPath.mjs": [],
+  "node_modules/@inkline/inkline/helpers/toCamelCase.mjs": [],
+  "node_modules/@inkline/inkline/helpers/uid.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/constants.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/alpha.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/alphanumeric.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/custom.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/number.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/email.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/max.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/maxLength.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/min.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/minLength.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/required.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/sameAs.mjs": [],
+  "node_modules/@inkline/inkline/validation/validators/index.mjs": [],
+  "node_modules/@inkline/inkline/validation/initialize.mjs": [],
+  "node_modules/@inkline/inkline/i18n/messages/en.mjs": [],
+  "node_modules/@inkline/inkline/i18n/translate.mjs": [],
+  "node_modules/@inkline/inkline/i18n/index.mjs": [],
+  "node_modules/@inkline/inkline/validation/validate.mjs": [],
+  "node_modules/@inkline/inkline/icons.mjs": [],
+  "node_modules/@inkline/inkline/plugin.mjs": [],
+  "node_modules/@inkline/inkline/mixins/props/default.mjs": [],
+  "node_modules/@inkline/inkline/mixins/props/size.mjs": [],
+  "node_modules/@inkline/inkline/mixins/CollapsibleMixin.mjs": [],
+  "node_modules/@inkline/inkline/mixins/FormComponentMixin.mjs": [],
+  "node_modules/@inkline/inkline/mixins/LinkableMixin.mjs": [],
+  "node_modules/@popperjs/core/lib/enums.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getNodeName.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getWindow.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/instanceOf.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/applyStyles.js": [],
+  "node_modules/@popperjs/core/lib/utils/getBasePlacement.js": [],
+  "node_modules/@popperjs/core/lib/utils/math.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/contains.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/isTableElement.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getParentNode.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js": [],
+  "node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js": [],
+  "node_modules/@popperjs/core/lib/utils/within.js": [],
+  "node_modules/@popperjs/core/lib/utils/getFreshSideObject.js": [],
+  "node_modules/@popperjs/core/lib/utils/mergePaddingObject.js": [],
+  "node_modules/@popperjs/core/lib/utils/expandToHashMap.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/arrow.js": [],
+  "node_modules/@popperjs/core/lib/utils/getVariation.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/computeStyles.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/eventListeners.js": [],
+  "node_modules/@popperjs/core/lib/utils/getOppositePlacement.js": [],
+  "node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js": [],
+  "node_modules/@popperjs/core/lib/utils/rectToClientRect.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js": [],
+  "node_modules/@popperjs/core/lib/utils/computeOffsets.js": [],
+  "node_modules/@popperjs/core/lib/utils/detectOverflow.js": [],
+  "node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/flip.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/hide.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/offset.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/popperOffsets.js": [],
+  "node_modules/@popperjs/core/lib/utils/getAltAxis.js": [],
+  "node_modules/@popperjs/core/lib/modifiers/preventOverflow.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js": [],
+  "node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js": [],
+  "node_modules/@popperjs/core/lib/utils/orderModifiers.js": [],
+  "node_modules/@popperjs/core/lib/utils/debounce.js": [],
+  "node_modules/@popperjs/core/lib/utils/mergeByName.js": [],
+  "node_modules/@popperjs/core/lib/createPopper.js": [],
+  "node_modules/@popperjs/core/lib/popper.js": [],
+  "node_modules/@inkline/inkline/mixins/PopupMixin.mjs": [],
+  "node_modules/@inkline/inkline/mixins/PopupControlsMixin.mjs": [],
+  "node_modules/@inkline/inkline/components/IAlert/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IAlert/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IAlert/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "plugin-vue:export-helper": [],
+  "node_modules/@inkline/inkline/components/IAlert/index.vue": [],
+  "node_modules/@inkline/inkline/components/IBadge/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IBadge/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IBadge/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IBadge/index.vue": [],
+  "node_modules/@inkline/inkline/components/IBreadcrumb/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IBreadcrumb/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IBreadcrumb/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IBreadcrumb/index.vue": [],
+  "node_modules/@inkline/inkline/components/IBreadcrumb/components/IBreadcrumbItem/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IBreadcrumb/components/IBreadcrumbItem/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IBreadcrumb/components/IBreadcrumbItem/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IBreadcrumb/components/IBreadcrumbItem/index.vue": [],
+  "node_modules/@inkline/inkline/components/ILoader/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ILoader/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ILoader/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ILoader/index.vue": [],
+  "node_modules/@inkline/inkline/components/IButton/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IButton/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IButton/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IButton/index.vue": [],
+  "node_modules/@inkline/inkline/components/IButtonGroup/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IButtonGroup/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IButtonGroup/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IButtonGroup/index.vue": [],
+  "node_modules/@inkline/inkline/components/IColumn/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IColumn/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IColumn/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IColumn/index.vue": [],
+  "node_modules/@inkline/inkline/components/IContainer/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IContainer/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IContainer/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IContainer/index.vue": [],
+  "node_modules/@inkline/inkline/components/ICard/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ICard/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ICard/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ICard/index.vue": [],
+  "node_modules/@inkline/inkline/components/ICheckbox/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ICheckbox/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ICheckbox/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ICheckbox/index.vue": [],
+  "node_modules/@inkline/inkline/components/ICheckbox/components/ICheckboxGroup/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ICheckbox/components/ICheckboxGroup/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ICheckbox/components/ICheckboxGroup/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ICheckbox/components/ICheckboxGroup/index.vue": [],
+  "node_modules/@inkline/inkline/components/ICollapsible/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ICollapsible/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ICollapsible/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ICollapsible/index.vue": [],
+  "node_modules/@inkline/inkline/transitions/IExpandTransition/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/transitions/IExpandTransition/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/transitions/IExpandTransition/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/transitions/IExpandTransition/index.vue": [],
+  "node_modules/@inkline/inkline/components/ICollapsible/components/ICollapsibleItem/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ICollapsible/components/ICollapsibleItem/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ICollapsible/components/ICollapsibleItem/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ICollapsible/components/ICollapsibleItem/index.vue": [],
+  "node_modules/@inkline/inkline/directives/click-outside.mjs": [],
+  "node_modules/@inkline/inkline/components/IDropdown/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IDropdown/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IDropdown/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IDropdown/index.vue": [],
+  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownDivider/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownDivider/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownDivider/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownDivider/index.vue": [],
+  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownItem/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownItem/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownItem/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownItem/index.vue": [],
+  "node_modules/@inkline/inkline/components/IForm/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IForm/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IInput/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IForm/style.scss?vue&type=style&index=1&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IForm/index.vue": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormGroup/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormGroup/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormGroup/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormGroup/index.vue": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormError/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormError/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormError/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormError/index.vue": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormLabel/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormLabel/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormLabel/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IForm/components/IFormLabel/index.vue": [],
+  "node_modules/@inkline/inkline/components/IHamburgerMenu/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IHamburgerMenu/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IHamburgerMenu/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IHamburgerMenu/index.vue": [],
+  "node_modules/@inkline/inkline/components/IRow/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IRow/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IRow/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IRow/index.vue": [],
+  "node_modules/@inkline/inkline/components/IHeader/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IHeader/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IHeader/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IHeader/index.vue": [],
+  "node_modules/@inkline/inkline/components/IIcon/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IIcon/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IIcon/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IIcon/index.vue": [],
+  "node_modules/@inkline/inkline/components/IInput/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IInput/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IInput/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IInput/index.vue": [],
+  "node_modules/@inkline/inkline/components/INumberInput/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/INumberInput/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/INumberInput/index.vue": [],
+  "node_modules/@inkline/inkline/components/ITextarea/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ITextarea/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ITextarea/index.vue": [],
+  "node_modules/@inkline/inkline/components/ILayout/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ILayout/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ILayout/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ILayout/index.vue": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutAside/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutAside/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutAside/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutAside/index.vue": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutContent/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutContent/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutContent/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutContent/index.vue": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutFooter/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutFooter/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutFooter/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutFooter/index.vue": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutHeader/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutHeader/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutHeader/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutHeader/index.vue": [],
+  "node_modules/@inkline/inkline/components/IListGroup/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IListGroup/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IListGroup/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IListGroup/index.vue": [],
+  "node_modules/@inkline/inkline/components/IListGroup/components/IListGroupItem/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IListGroup/components/IListGroupItem/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IListGroup/components/IListGroupItem/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IListGroup/components/IListGroupItem/index.vue": [],
+  "node_modules/@inkline/inkline/components/IMark/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IMark/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IMark/index.vue": [],
+  "node_modules/@inkline/inkline/components/IMedia/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IMedia/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IMedia/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IMedia/index.vue": [],
+  "node_modules/@inkline/inkline/controllers/OverlayController.mjs": [],
+  "node_modules/@inkline/inkline/components/IModal/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IModal/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IModal/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IModal/index.vue": [],
+  "node_modules/@inkline/inkline/components/INav/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/INav/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/INav/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/INav/index.vue": [],
+  "node_modules/@inkline/inkline/components/INav/components/INavItem/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/INav/components/INavItem/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/INav/components/INavItem/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/INav/components/INavItem/index.vue": [],
+  "node_modules/@inkline/inkline/components/INavbar/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/INavbar/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/INavbar/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/INavbar/index.vue": [],
+  "node_modules/@inkline/inkline/components/INavbar/components/INavbarBrand/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/INavbar/components/INavbarBrand/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/INavbar/components/INavbarBrand/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/INavbar/components/INavbarBrand/index.vue": [],
+  "node_modules/@inkline/inkline/components/INavbar/components/INavbarCollapsible/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/INavbar/components/INavbarCollapsible/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/INavbar/components/INavbarCollapsible/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/INavbar/components/INavbarCollapsible/index.vue": [],
+  "node_modules/@inkline/inkline/components/IPagination/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IPagination/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IPagination/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IPagination/index.vue": [],
+  "node_modules/@inkline/inkline/components/IPopover/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IPopover/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IPopover/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IPopover/index.vue": [],
+  "node_modules/@inkline/inkline/components/IProgress/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IProgress/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IProgress/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IProgress/index.vue": [],
+  "node_modules/@inkline/inkline/components/IProgress/components/IProgressBar/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IProgress/components/IProgressBar/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IProgress/components/IProgressBar/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IProgress/components/IProgressBar/index.vue": [],
+  "node_modules/@inkline/inkline/components/IRadio/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IRadio/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IRadio/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IRadio/index.vue": [],
+  "node_modules/@inkline/inkline/components/IRadio/components/IRadioGroup/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IRadio/components/IRadioGroup/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IRadio/components/IRadioGroup/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IRadio/components/IRadioGroup/index.vue": [],
+  "node_modules/@inkline/inkline/components/ISelect/components/ISelectOption/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ISelect/components/ISelectOption/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ISelect/components/ISelectOption/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ISelect/components/ISelectOption/index.vue": [],
+  "node_modules/@inkline/inkline/components/ISelect/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ISelect/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ISelect/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ISelect/index.vue": [],
+  "node_modules/@inkline/inkline/components/ISidebar/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ISidebar/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ISidebar/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ISidebar/index.vue": [],
+  "node_modules/@inkline/inkline/components/ITable/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ITable/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ITable/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ITable/index.vue": [],
+  "node_modules/@inkline/inkline/components/ITabs/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ITabs/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ITabs/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ITabs/index.vue": [],
+  "node_modules/@inkline/inkline/components/ITabs/components/ITab/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ITabs/components/ITab/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ITabs/components/ITab/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ITabs/components/ITab/index.vue": [],
+  "node_modules/@inkline/inkline/components/ITabs/components/ITabTitle/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ITabs/components/ITabTitle/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ITabs/components/ITabTitle/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ITabs/components/ITabTitle/index.vue": [],
+  "node_modules/@inkline/inkline/components/IToggle/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/IToggle/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/IToggle/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/IToggle/index.vue": [],
+  "node_modules/@inkline/inkline/components/ITooltip/script.mjs?vue&type=script&src&lang.mjs": [],
+  "node_modules/@inkline/inkline/components/ITooltip/template.html?vue&type=template&src&lang.js": [],
+  "node_modules/@inkline/inkline/components/ITooltip/style.scss?vue&type=style&index=0&src&lang.scss": [],
+  "node_modules/@inkline/inkline/components/ITooltip/index.vue": [],
+  "node_modules/@inkline/inkline/components/index.mjs": [],
   "router.vue": [],
   "error.vue": [],
   "head.js": [],
@@ -13,2285 +473,13 @@
   "client.js": [],
   "entry/client.js": [],
   "index.html": [],
-  "node_modules/@vue/shared/dist/shared.esm-bundler.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/reactivity/dist/reactivity.esm-bundler.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/runtime-core/dist/runtime-core.esm-bundler.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/runtime-dom/dist/runtime-dom.esm-bundler.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/vue/dist/vue.runtime.esm-bundler.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/env.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/const.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/proxy.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/api.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/app.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/component.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/context.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/hooks.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/util.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/api/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/plugin.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vue/devtools-api/lib/esm/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/vue-router/dist/vue-router.esm-bundler.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@vueuse/head/dist/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000commonjsHelpers.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@arr/every/module.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/matchit/lib/matchit.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/matchit/lib/matchit.mjs?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/comment.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/node.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/he/he.js?commonjs-module": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/he/he.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/he/he.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/nodes/node.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/node.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/type.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/nodes/type.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/type.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/nodes/comment.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/comment.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/html.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/stringify.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domhandler/lib/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domelementtype/lib/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domelementtype/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domelementtype/lib/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domhandler/lib/node.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domhandler/lib/node.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domhandler/lib/node.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domhandler/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domhandler/lib/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/dom-serializer/lib/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/decode.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/entities/lib/maps/entities.json": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/maps/entities.json?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/entities/lib/maps/legacy.json": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/maps/legacy.json?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/entities/lib/maps/xml.json": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/maps/xml.json?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/decode_codepoint.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/entities/lib/maps/decode.json": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/maps/decode.json?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/entities/lib/decode_codepoint.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/decode_codepoint.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/entities/lib/decode.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/decode.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/encode.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/entities/lib/encode.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/encode.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/entities/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/entities/lib/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/dom-serializer/lib/foreignNames.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/dom-serializer/lib/foreignNames.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/dom-serializer/lib/foreignNames.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/dom-serializer/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/dom-serializer/lib/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domutils/lib/stringify.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/stringify.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/traversal.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domutils/lib/traversal.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/traversal.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/manipulation.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domutils/lib/manipulation.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/manipulation.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/querying.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domutils/lib/querying.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/querying.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/legacy.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domutils/lib/legacy.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/legacy.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/helpers.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domutils/lib/helpers.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/helpers.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/feeds.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domutils/lib/feeds.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/feeds.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/domutils/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/domutils/lib/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/boolbase/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/boolbase/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/compile.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/parse.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-what/lib/parse.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/parse.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/stringify.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-what/lib/stringify.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/stringify.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-what/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-what/lib/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/sort.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/procedure.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/procedure.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/procedure.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/sort.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/sort.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/general.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/attributes.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/attributes.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/attributes.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/filters.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/index.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/parse.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/nth-check/lib/parse.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/parse.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/compile.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/nth-check/lib/compile.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/compile.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/nth-check/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/nth-check/lib/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/pseudo-selectors/filters.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/filters.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/pseudos.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/pseudo-selectors/pseudos.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/pseudos.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/aliases.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/pseudo-selectors/aliases.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/aliases.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/subselects.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/pseudo-selectors/subselects.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/subselects.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/pseudo-selectors/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/pseudo-selectors/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/general.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/general.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/compile.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/compile.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/css-select/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/css-select/lib/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/text.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/nodes/text.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/text.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/matcher.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/matcher.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/matcher.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/back.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/back.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/back.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/nodes/html.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/nodes/html.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/parse.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/parse.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/parse.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/valid.js?commonjs-exports": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/valid.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/valid.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/node-html-parser/dist/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/node-html-parser/dist/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/fastify-vite/client.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/fastify-vite/client.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/fastify-vite/islands.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/fastify-vite/islands.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/fastify-vite/app.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/fastify-vite/app.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/vue/dist/vue.runtime.esm-bundler.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/vue-router/dist/vue-router.esm-bundler.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/manifetch/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/manifetch/index.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/fastify-vite-vue/symbols.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/fastify-vite-vue/symbols.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/fastify-vite-vue/app.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "\u0000/home/runner/work/pacchetto/pacchetto/node_modules/fastify-vite-vue/app.js?commonjs-proxy": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/fastify-vite-vue/routing.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/computed/classes.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/computed/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/hasClass.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/addClass.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/toDashCase.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/breakpointClass.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/capitalizeFirst.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/clone.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/debounce.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/isFocusable.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/focusAttempt.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/focusFirstDescendant.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/focusLastDescendant.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/getStyleProperty.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/hashString.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/isFunction.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/constants/breakpoints.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/constants/keymap.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/constants/eventValueMap.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/constants/validation.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/constants/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/isKey.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/isMobile.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/isVisible.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/markSearchString.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/memoize.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/off.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/on.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/once.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/query.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/renderSvg.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/trim.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/removeClass.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/slugify.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/valueByPath.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/sortByPath.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/toCamelCase.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/toUnderscoreCase.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/triggerEvent.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/uid.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/helpers/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/constants.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/alpha.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/alphanumeric.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/custom.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/number.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/email.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/max.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/maxLength.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/min.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/minLength.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/required.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/sameAs.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validators/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/initialize.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/i18n/messages/en.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/i18n/translate.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/i18n/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/validate.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/validation/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/icons.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/plugin.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/props/default.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/props/size.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/props/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/CollapsibleMixin.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/FormComponentMixin.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/LinkableMixin.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/enums.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getNodeName.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getWindow.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/instanceOf.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/applyStyles.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/getBasePlacement.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/math.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getBoundingClientRect.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getLayoutRect.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/contains.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getComputedStyle.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/isTableElement.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getDocumentElement.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getParentNode.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getOffsetParent.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/getMainAxisFromPlacement.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/within.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/getFreshSideObject.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/mergePaddingObject.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/expandToHashMap.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/arrow.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/getVariation.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/computeStyles.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/eventListeners.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/getOppositePlacement.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/getOppositeVariationPlacement.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getWindowScroll.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getWindowScrollBarX.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getViewportRect.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getDocumentRect.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/isScrollParent.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getScrollParent.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/listScrollParents.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/rectToClientRect.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getClippingRect.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/computeOffsets.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/detectOverflow.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/computeAutoPlacement.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/flip.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/hide.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/offset.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/popperOffsets.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/getAltAxis.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/preventOverflow.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/modifiers/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getHTMLElementScroll.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getNodeScroll.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/dom-utils/getCompositeRect.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/orderModifiers.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/debounce.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/format.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/validateModifiers.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/uniqueBy.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/utils/mergeByName.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/createPopper.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/popper-lite.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/popper.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@popperjs/core/lib/index.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/PopupMixin.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/PopupControlsMixin.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/mixins/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IAlert/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IAlert/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IAlert/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "plugin-vue:export-helper": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IAlert/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBadge/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBadge/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBadge/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBadge/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/components/IBreadcrumbItem/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/components/IBreadcrumbItem/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/components/IBreadcrumbItem/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/components/IBreadcrumbItem/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IBreadcrumb/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILoader/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILoader/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILoader/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILoader/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IButton/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IButton/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IButton/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IButton/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IButtonGroup/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IButtonGroup/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IButtonGroup/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IButtonGroup/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IColumn/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IColumn/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IColumn/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IColumn/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IContainer/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IContainer/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IContainer/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IContainer/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICard/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICard/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICard/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICard/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/components/ICheckboxGroup/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/components/ICheckboxGroup/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/components/ICheckboxGroup/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/components/ICheckboxGroup/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICheckbox/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/transitions/IExpandTransition/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/transitions/IExpandTransition/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/transitions/IExpandTransition/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/transitions/IExpandTransition/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/transitions/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/components/ICollapsibleItem/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/components/ICollapsibleItem/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/components/ICollapsibleItem/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/components/ICollapsibleItem/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ICollapsible/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/directives/click-outside.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/directives/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownDivider/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownDivider/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownDivider/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownDivider/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownItem/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownItem/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownItem/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/IDropdownItem/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IDropdown/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IInput/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/style.scss?vue&type=style&index=1&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormGroup/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormGroup/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormGroup/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormGroup/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormError/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormError/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormError/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormError/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormLabel/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormLabel/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormLabel/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/IFormLabel/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IForm/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IHamburgerMenu/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IHamburgerMenu/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IHamburgerMenu/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IHamburgerMenu/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRow/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRow/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRow/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRow/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IHeader/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IHeader/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IHeader/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IHeader/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IIcon/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IIcon/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IIcon/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IIcon/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IInput/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IInput/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IInput/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IInput/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INumberInput/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INumberInput/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INumberInput/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITextarea/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITextarea/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITextarea/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutAside/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutAside/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutAside/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutAside/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutContent/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutContent/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutContent/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutContent/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutFooter/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutFooter/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutFooter/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutFooter/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutHeader/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutHeader/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutHeader/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ILayout/components/ILayoutHeader/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/components/IListGroupItem/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/components/IListGroupItem/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/components/IListGroupItem/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/components/IListGroupItem/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IListGroup/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IMark/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IMark/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IMark/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IMedia/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IMedia/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IMedia/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IMedia/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/controllers/OverlayController.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/controllers/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IModal/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IModal/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IModal/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IModal/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/components/INavItem/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/components/INavItem/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/components/INavItem/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/components/INavItem/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INav/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/INavbarBrand/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/INavbarBrand/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/INavbarBrand/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/INavbarBrand/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/INavbarCollapsible/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/INavbarCollapsible/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/INavbarCollapsible/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/INavbarCollapsible/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/INavbar/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IPagination/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IPagination/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IPagination/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IPagination/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IPopover/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IPopover/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IPopover/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IPopover/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/components/IProgressBar/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/components/IProgressBar/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/components/IProgressBar/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/components/IProgressBar/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IProgress/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/components/IRadioGroup/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/components/IRadioGroup/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/components/IRadioGroup/style.scss?vue&type=style&index=0&src&scoped=true&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/components/IRadioGroup/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IRadio/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/components/ISelectOption/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/components/ISelectOption/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/components/ISelectOption/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/components/ISelectOption/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISelect/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISidebar/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISidebar/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISidebar/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ISidebar/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITable/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITable/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITable/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITable/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/ITab/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/ITab/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/ITab/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/ITab/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/ITabTitle/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/ITabTitle/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/ITabTitle/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/ITabTitle/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITabs/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IToggle/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IToggle/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IToggle/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/IToggle/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITooltip/script.mjs?vue&type=script&src&lang.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITooltip/template.html?vue&type=template&src&lang.js": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITooltip/style.scss?vue&type=style&index=0&src&lang.scss": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/ITooltip/index.vue": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/components/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/composition-api/useForm.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/composition-api/index.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
-  "node_modules/@inkline/inkline/inkline.mjs": [
-    "/pacchetto/assets/vendor.c21276c9.js",
-    "/pacchetto/assets/vendor.213bcc91.css"
-  ],
   "data.json": [
-    "/pacchetto/assets/index.e7593669.js"
+    "/pacchetto/assets/index.0313cdcd.js"
   ],
   "../../../../../fastify.svg": [
-    "/pacchetto/assets/index.e7593669.js"
+    "/pacchetto/assets/index.0313cdcd.js"
   ],
   "views/index.vue": [
-    "/pacchetto/assets/index.e7593669.js"
+    "/pacchetto/assets/index.0313cdcd.js"
   ]
 }
