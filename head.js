@@ -17,13 +17,23 @@ export const bodyAttrs = {}
 // Or a default export with the same properties
 
 export default {
-  title: null,
+  title: 'Pacchetto',
   base: null,
-  meta: [],
+  meta: [
+    {
+      charset: 'utf-8' 
+    },
+    {
+      name: 'viewport',
+      content: 'width=device-width, initial-scale=1'
+    }
+  ],
   link: [],
   style: [],
   script: [],
-  htmlAttrs: {},
+  htmlAttrs: {
+    'lang': 'en'
+  },
   bodyAttrs: {}
 }
 
