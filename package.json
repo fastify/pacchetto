@@ -15,7 +15,7 @@
     "sass": "^1.54.9"
   },
   "devDependencies": {
-    "@babel/core": "^7.19.1",
+    "@babel/core": "^7.19.3",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/eslint-plugin": "^7.19.1",
     "@nuxtjs/eslint-config": "^1.0.1",
