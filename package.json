@@ -6,7 +6,7 @@
     "lint": "eslint . --ext .mjs,.js --fix"
   },
   "dependencies": {
-    "@inkline/inkline": "^3.1.8",
+    "@inkline/inkline": "^3.1.9",
     "fastify": "^3.27.0",
     "fastify-vite": "^3.0.0-alpha.13",
     "fastify-vite-vue": "^3.0.0-alpha.13",
