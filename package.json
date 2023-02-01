@@ -12,7 +12,7 @@
     "fastify-vite-vue": "^3.0.0-alpha.13",
     "p-map": "^5.5.0",
     "query-registry": "^2.6.0",
-    "sass": "^1.57.1"
+    "sass": "^1.58.0"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
