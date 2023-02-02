@@ -18,7 +18,7 @@
     "@babel/core": "^7.20.12",
     "@babel/eslint-parser": "^7.19.1",
     "@babel/eslint-plugin": "^7.19.1",
-    "@nuxtjs/eslint-config": "^1.0.1",
+    "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/style-resources": "^0.1.2",
     "convert-svg-to-png": "^0.6.4",
     "eslint": "^7.28.0",
