@@ -875,7 +875,7 @@
       "name": "@fastify/flash",
       "description": "Flash message plugin for fastify.",
       "version": "5.0.0",
-      "homepage": "http://fastify.io/"
+      "homepage": "http://fastify.dev/"
     },
     {
       "name": "@fastify/session",
