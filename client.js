@@ -27,6 +27,6 @@ export async function createApp (ctx) {
   }
   app.use(router)
   app.use(head)
-  app.use(Inkline, { components })  
+  app.use(Inkline, { components })
   return { ctx, app, head, router, routes: resolvedRoutes }
 }

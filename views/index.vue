@@ -69,7 +69,7 @@
 	display: flex;
 	gap: 0.5em;
 	width: calc(100% - 2em);
-	flex-wrap: wrap;	
+	flex-wrap: wrap;
 }
 .categories :deep(.button) {
 	font-size: 0.9em;

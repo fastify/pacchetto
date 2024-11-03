@@ -21,7 +21,7 @@ export default {
   base: null,
   meta: [
     {
-      charset: 'utf-8' 
+      charset: 'utf-8'
     },
     {
       name: 'viewport',
