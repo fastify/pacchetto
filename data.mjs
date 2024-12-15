@@ -1,10 +1,10 @@
-import { existsSync } from 'fs'
+import { existsSync } from 'node:fs'
 import { readFile, writeFile } from 'fs/promises'
-import { fileURLToPath } from 'url'
-import { dirname, join } from 'path'
+import { fileURLToPath } from 'node:url'
+import { dirname, join } from 'node:path'
 import fp from 'fastify-plugin'
 import pMap from 'p-map'
-import { createRequire } from 'module'
+import { createRequire } from 'node:module'
 import plugins from './plugins.mjs'
 
 const require = createRequire(import.meta.url)
