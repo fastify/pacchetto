@@ -224,7 +224,7 @@
     },
     {
       "name": "fastify-reverse-routes",
-      "description": "[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) [![Build Status](https://travis-ci.org/dimonnwc3/fastify-reverse-routes.svg?branch=master)](https://travis-ci.org/dimonnwc3/fasti",
+      "description": "[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](http://standardjs.com/) [![Build Status](https://travis-ci.org/dimonnwc3/fastify-reverse-routes.svg?branch=main)](https://travis-ci.org/dimonnwc3/fasti",
       "version": "3.0.0",
       "homepage": "https://github.com/dimonnwc3/fastify-reverse-routes#readme"
     },
