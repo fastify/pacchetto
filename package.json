@@ -9,7 +9,7 @@
     "@inkline/inkline": "^3.1.10",
     "fastify": "^3.27.0",
     "fastify-vite": "^3.0.0-alpha.13",
-    "fastify-vite-vue": "^3.0.0-alpha.13",
+    "fastify-vite-vue": "^3.0.0-beta.3",
     "p-map": "^5.5.0",
     "query-registry": "^2.6.0",
     "sass": "^1.58.0"
