@@ -10,7 +10,7 @@
     "fastify": "^3.27.0",
     "fastify-vite": "^3.0.0-alpha.13",
     "fastify-vite-vue": "^3.0.0-alpha.13",
-    "p-map": "^5.5.0",
+    "p-map": "^7.0.4",
     "query-registry": "^2.6.0",
     "sass": "^1.94.2"
   },
