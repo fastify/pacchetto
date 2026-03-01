@@ -1,4 +1,5 @@
 {
+  "license": "MIT",
   "scripts": {
     "dev": "node pacchetto.mjs",
     "build": "NODE_ENV=production node pacchetto.mjs build",
